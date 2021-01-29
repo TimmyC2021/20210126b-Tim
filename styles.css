@@ -21,6 +21,11 @@ header{
      font-size: 40px;
 }
 
+.flexbox_container {
+    display: flex;
+    justify-content: center;
+}
+
 .card {
     width: 300px;
     height: auto;
@@ -45,6 +50,9 @@ header{
     opacity: 1;
 }
 
+#ignore_me {
+    opacity: 0;
+}
 h2, h3, h4, h5, h6 {
     font-size: 30px;
     text-decoration: underline;
@@ -61,6 +69,14 @@ span {
 
 li:hover {
     color: #1182eb;
+}
+
+#prince_princess {
+    column-gap: 300px;
+}
+
+#mistress {
+    column-gap: 500px;
 }
 
 *::selection {
