@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Fundamentals Palace</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
@@ -16,48 +17,60 @@
     </header>
 
     <main>
-      <h2>King Kieran</h2>
-      <img src="./images/king.jpg" alt="Picture of King Kieran" />
-      <p>
-        My name is King Kieran and I am the King. I likekarate and kitesurfing.
-        My son <a href="#peter">Peter</a> is heir to the throne.
-      </p>
+      <div class="card">
+        <h2>King Kieran</h2>
+        <img src="./images/king.jpg" alt="Picture of King Kieran" />
+        <p>
+          My name is King Kieran and I am the King. I likekarate and
+          kitesurfing. My son <a href="#peter">Peter</a> is heir to the throne.
+        </p>
+      </div>
 
-      <h3>Queen Queenie</h3>
-      <img src="./images/queen.jpg" alt="Picture of Queen Queenie" />
-      <p>
-        My name is Queenie and I am the Queen. I like quizzes and quiche. Click
-        <a
-          href="https://www.thekitchn.com/how-to-cook-quince-cooking-lessons-from-the-kitchn-196597"
-          target="_blank"
-          >here</a
-        >
-        to see my favourite quiche recipe.
-      </p>
+      <div class="card">
+        <h3>Queen Queenie</h3>
+        <img src="./images/queen.jpg" alt="Picture of Queen Queenie" />
+        <p>
+          My name is Queenie and I am the Queen. I like quizzes and quiche.
+          Click
+          <a
+            href="https://www.thekitchn.com/how-to-cook-quince-cooking-lessons-from-the-kitchn-196597"
+            target="_blank"
+            >here</a
+          >
+          to see my favourite quiche recipe.
+        </p>
+      </div>
 
-      <h4 id="peter">Prince Peter</h4>
-      <img src="./images/prince-peter.jpg" alt="Picture of Prince Peter" />
-      <p>
-        My name is Peter and I am the prince. I like posing and pizza. Follow me
-        on instagram @pengprincepeter
-      </p>
+      <div class="card">
+        <h4 id="peter">Prince Peter</h4>
+        <img src="./images/prince-peter.jpg" alt="Picture of Prince Peter" />
+        <p>
+          My name is Peter and I am the prince. I like posing and pizza. Follow
+          me on instagram <span>@pengprincepeter</span>
+        </p>
+      </div>
+      <div class="card">
+        <h5>Princess Penelope</h5>
+        <img
+          src="./images/princess-penelope.jpg"
+          alt="Picture of Princess Penelope"
+        />
 
-      <h5>Princess Penelope</h5>
-      <img
-        src="./images/princess-penelope.jpg"
-        alt="Picture of Princess Penelope"
-      />
-      <p>My name is Penelope. I like lots of things...</p>
-      <ul>
-        <li>Pencils</li>
-        <li>Peanut Butter</li>
-        <li>Ponies</li>
-        <li>Pogo sticks</li>
-      </ul>
-
-      <h6>Susan</h6>
-      <img src="./images/susan.jpg" alt="Picture of Susan" />
-      <p>I am King Kieran's mistress and mother to the illegitimate Princess</p>
+        <p>My name is Penelope. I like lots of things...</p>
+        <ul   id="penelope">
+          <li>Pencils</li>
+          <li>Peanut Butter</li>
+          <li>Ponies</li>
+          <li>Pogo sticks</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h6>Susan</h6>
+        <img src="./images/susan.jpg" alt="Picture of Susan" />
+        <p>
+          I am King Kieran's mistress and mother to the illegitimate Princess
+        </p>
+      </div>
     </main>
     <footer>
       <a href="#palace">Back to top</a>
